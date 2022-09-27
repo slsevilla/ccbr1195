@@ -1,14 +1,14 @@
-# ccbr1195
-merge several software output into one pipeline
+# CCBR1195
+- Project goal: merge several software output into one pipeline
 
-## Workflow
+## Conda Environment Workflow
 ### Add source_conda to bash.rc
 ```
 alias source_conda='. "/data/CCBR_Pipeliner/db/PipeDB/Conda/etc/profile.d/conda.sh"'
 ```
 
 ### Create conda environment
-Conda site: https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html
+- Conda site: https://docs.conda.io/projects/conda/en/4.6.0/user-guide/tasks/manage-environments.html
 ```
 source_conda
 conda create --name {name of conda}
